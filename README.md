@@ -7,5 +7,3 @@ We do so using Java and TestNG demonstrating the Page Object Model and other Jav
 
 You'll need Eclipse and ChromeDriver to run these tests
 
-I can also walk you through the codebase
-
