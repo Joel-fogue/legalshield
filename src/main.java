@@ -45,13 +45,13 @@ public class main {
 		Assert.assertEquals(title, CONSTANTS.LawFirmsPageTitle);
 	}
 
-	@Test
-	public void testNavigateToPersonal() throws InterruptedException {
-		LegalShieldHomePage legalShieldNavigation = new LegalShieldHomePage(driver);
-		legalShieldNavigation.getLegalshieldNavigation().gotoPersonal();
-		String title = legalShieldNavigation.getPageTitle();
-		Assert.assertEquals(title, CONSTANTS.PersonalPageTitle);
-	}
+//	@Test
+//	public void testNavigateToPersonal() throws InterruptedException {
+//		LegalShieldHomePage legalShieldNavigation = new LegalShieldHomePage(driver);
+//		legalShieldNavigation.getLegalshieldNavigation().gotoPersonal();
+//		String title = legalShieldNavigation.getPageTitle();
+//		Assert.assertEquals(title, CONSTANTS.PersonalPageTitle);
+//	}
 
 	@AfterTest
 	public void afterTest() {
